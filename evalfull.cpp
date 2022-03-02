@@ -23,7 +23,6 @@ TokenType identify(char *t);
 bool balanced(char *expression[], int numTokens) {
 
 	stack<TokenType> s;  // USE s TO SOLVE THE PROBLEM - it is an STL
-	TokenType operation;
 	TokenType type;	// (Standard Template Library) structure with
 		// all of the same operations as the stack from
                       // Step 2 of this lab, but it won't get full
@@ -37,7 +36,6 @@ bool balanced(char *expression[], int numTokens) {
 			if(s.empty()){
 				return false; //make sure that it has a left paranthesis
 			}
-			operation = s.top();
 			s.pop();
 		}
 	}
