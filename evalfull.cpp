@@ -1,5 +1,6 @@
+// AO XU 02/03/2022 
 // evalfull.cpp - evaluates a fully-parenthesized expression
-// AO XU, 01/03/2022
+
 
 #include <cstdlib>   // for atof function
 #include <cstdio>    // for sscanf
